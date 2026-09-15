@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(152, 152, 49);
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid;
+    font-size: 20px;
+    color: white;
+}
+
+nav {
+
+    display: flex;
+
+
+}
+
+nav ul {
+    display: flex;
+    gap: 16px;
+}
+
+nav li {
+    list-style: none;
+    font-size: 17px;
+}
+
+main {
+    background-color: rgb(175, 104, 12);
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+img {
+    height: 300px;
+    width: 400px;
+}
+
+.left {
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(44, 11, 11);
+}
